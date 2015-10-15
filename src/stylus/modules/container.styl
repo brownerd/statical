@@ -1,0 +1,21 @@
+// Rename this file or delete it
+// This is only here for setup purposes
+//
+
+h1
+  font-size 3rem
+  opacity .5
+
+  &::after
+    content: 'hello'
+
+.container
+  background-color tomato
+
+  // We are using Rupture for hadling breakpoints
+  // http://jenius.github.io/rupture/
+  +tablet()
+    background-color yellow
+
+  +below(550px)
+    background-color orange
