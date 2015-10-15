@@ -1,21 +1,13 @@
 {
-  "name": "checking",
+  "name": "statical",
   "version": "1.0.0",
   "description": "- This is a static site built using Jade - We are only making the static assets and handing them off to the client",
   "main": "gulpfile.babel.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/CommerceTrust/checking.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CommerceTrust/checking/issues"
-  },
-  "homepage": "https://github.com/CommerceTrust/checking",
   "devDependencies": {
     "autoprefixer": "^6.0.3",
     "babel-core": "^5.8.25",
